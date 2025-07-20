@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Javascript Functions</title>
+</head>
+
+<body>
+    
+    <h2>Calling a Basic Function</h2>
+    <h3 id="intro"></h3>
+
+    <button onclick="calculation()">Click Me</button>
+    <h4 id="minecraft"></h4>
+
+    <script>
+
+        function codingal() {
+            document.getElementById("intro").innerHTML = "Hello We Are Learning Javascript"
+        }
+
+        codingal()
+
+
+        function calculation() {
+            var a = 10
+            var b = 20
+
+            var c = a * b
+
+            document.getElementById("minecraft").innerHTML = "the calculation result is: " + c
+        }
+        
+    </script>
+</body>
+</html>
